@@ -6,6 +6,8 @@ This section covers the **core concepts of JavaScript** that every developer mus
 
 ## 📌 Topics Covered
 
+- ✅ Type Coersion
+- ✅ Type Casting
 - ✅ Variables (`var`, `let`, `const`)
 - ✅ Data Types (Primitive & Non-Primitive)
 - ✅ Type Conversion & Coercion
