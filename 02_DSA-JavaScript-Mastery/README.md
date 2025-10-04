@@ -1,7 +1,7 @@
 # 🚀 DSA in JavaScript – Mastery Path  
 
 This repository is dedicated to mastering **Data Structures & Algorithms (DSA)** using **JavaScript**.  
-The goal is to solve **2000+ problems**, deeply understand concepts, and prepare for **FAANG & top product-based company interviews**.  
+The goal is to solve **2000+ problems**, deeply understand concepts, and prepare for **FAANG & top product-based company interviews**.    
 
 ---
 
