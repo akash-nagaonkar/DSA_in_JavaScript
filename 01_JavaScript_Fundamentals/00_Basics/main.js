@@ -177,7 +177,6 @@ let sum = num2 + castedNum;
 // Find if given number is Strong or not (Strong number is a number whose sum of factorial of digits is equal to the number itself. e.g. 145 = 1! + 4! + 5! = 145)
 // const n = Number(prompt("Enter a positive number:"));
 
-
 // const sumOfNumber = (n) => {
 //   let sum = 0;
 //   while (n > 0) {
@@ -204,7 +203,80 @@ let sum = num2 + castedNum;
 //   );
 // }
 
+// Pattern Programming
 const prompt = require("prompt-sync")();
+const n = prompt("Enter a number ");
 
-const a = prompt("Enter a number ")
-console.log(a);
+// Square of stars
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= n; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+
+// Right angle triangle with the stars
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+
+// Right angle triangle with digits
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write(`${j} `);
+//   }
+//   console.log();
+// }
+
+// Right angle triangle with Incremental Alphabets
+// for (let i = 1; i <= n; i++) {
+//   let asciiValue = 65; // Charactor A ascii vale is 65
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write(`${String.fromCharCode(asciiValue)} `);
+//     asciiValue++;
+//   }
+//   console.log();
+// }
+
+// Inverted Right angle triagle with the stars
+// for (let i = 1; i <= n; i++) {
+//   for (let j = n; j >= i; j--) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+
+// Mirror Right Angle Triangle
+// for (let i = 1; i <= n; i++) {
+//   for (let j = n - 1; j >= i; j--) {
+//     process.stdout.write("  ");
+//   }
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+
+// Triangle
+// for (let i = 1; i <= n; i++) {
+//   for (let j = n - 1; j >= i; j--) {
+//     process.stdout.write(" ");
+//   }
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+
+// Pattern X with stars
+for (let i = 1; i <= n; i++) {
+  for (let j = 1; j <= n; j++) {
+    if (i == j || i + j == n + 1) {
+      process.stdout.write("* ");
+    } else process.stdout.write("  ");
+  }
+  console.log();
+}
